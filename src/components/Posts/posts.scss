@@ -1,0 +1,9 @@
+@use '../../scss/' as *;
+
+.Posts {
+    padding: 0 50px;
+
+    @include mobile {
+        padding: 16px;
+    }
+}

@@ -1,0 +1,50 @@
+.comment {
+    display: flex;
+
+    gap: 10px;
+    margin-top: 20px;
+    img {
+        width: 36px;
+        height: 36px;
+        border-radius: 50%;
+    }
+
+    // :hover ~ .delete-btn {
+    //     display: block;
+    // }
+    .info {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+
+        .info-wrapper {
+            display: flex;
+
+            gap: 10px;
+
+            .info-user {
+                display: flex;
+                flex-direction: column;
+                background-color: var(--hover-color);
+                border-radius: 10px;
+                padding: 10px 15px;
+                gap: 5px;
+            }
+            a {
+                font-weight: 600;
+            }
+        }
+
+        .interaction {
+            font-size: 14px;
+            color: var(--sidebar-header-color);
+            display: flex;
+            gap: 10px;
+            padding-left: 50px;
+        }
+    }
+
+    .delete-btn {
+        cursor: pointer;
+    }
+}

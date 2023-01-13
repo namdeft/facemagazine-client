@@ -1,0 +1,6 @@
+export { default as MoreHorizIcon } from '@mui/icons-material/MoreHoriz'
+export { default as ClearIcon } from '@mui/icons-material/Clear'
+export { default as FavoriteBorderOutlinedIcon } from '@mui/icons-material/FavoriteBorderOutlined'
+export { default as FavoriteOutlinedIcon } from '@mui/icons-material/FavoriteOutlined'
+export { default as SmsOutlinedIcon } from '@mui/icons-material/SmsOutlined'
+export { default as ShareOutlinedIcon } from '@mui/icons-material/ShareOutlined'

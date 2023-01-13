@@ -1,0 +1,92 @@
+@use '../../scss/' as *;
+
+.LeftBar {
+    flex: 3;
+    position: sticky;
+    top: 66px;
+    height: calc(100vh - 66px);
+    overflow: scroll;
+    background-color: var(--background);
+    color: var(--text-primary);
+
+    @include mobile {
+        display: none;
+    }
+    @include tablet {
+        display: none;
+    }
+
+    .container {
+        padding: 10px;
+
+        .menu {
+            display: flex;
+            flex-direction: column;
+            border-bottom: 1px solid var(--border-color);
+            padding-bottom: 10px;
+
+            &:last-child {
+                border-bottom: none;
+            }
+
+            .sidebar-header {
+                padding: 20px 10px 5px 10px;
+                font-weight: 500;
+                color: var(--sidebar-header-color);
+                font-size: 18px;
+            }
+
+            .user {
+                display: flex;
+                align-items: center;
+                gap: 10px;
+                padding: 10px;
+                border-radius: 10px;
+                transition: all 0.1s ease;
+
+                img {
+                    height: 36px;
+                    width: 36px;
+                    border-radius: 50%;
+                    object-fit: cover;
+                }
+
+                span {
+                    font-weight: 500;
+                }
+
+                &:hover {
+                    background-color: var(--hover-color);
+                    cursor: pointer;
+                }
+            }
+        }
+
+        .shortcuts {
+            padding: 10px 0;
+        }
+
+        .item {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            padding: 10px;
+            border-radius: 10px;
+            transition: all 0.1s ease;
+
+            img {
+                height: 36px;
+                width: 36px;
+            }
+
+            span {
+                font-weight: 500;
+            }
+
+            &:hover {
+                background-color: var(--hover-color);
+                cursor: pointer;
+            }
+        }
+    }
+}

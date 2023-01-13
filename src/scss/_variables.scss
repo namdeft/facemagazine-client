@@ -1,0 +1,23 @@
+:root {
+    --app-background: #f6f3f3;
+    --background: white;
+    --text-primary: black;
+    --icon-background: #e3e6ea;
+    --icon-color: #242526;
+    --sidebar-header-color: #777a7d;
+    --hover-color: #e3e6ea;
+    --border-color: #cdd0d4;
+}
+[data-theme='dark'] {
+    --app-background: #3b3c3b;
+    --background: #242526;
+    --text-primary: white;
+    --icon-background: #3a3b3c;
+    --icon-color: #e3e6ea;
+    --sidebar-header-color: #a5a8ad;
+    --hover-color: #3a3b3c;
+    --border-color: #3d4042;
+}
+
+$mobile-width: 600px;
+$tablet-width: 1024px;

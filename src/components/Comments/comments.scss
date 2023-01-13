@@ -1,0 +1,32 @@
+.comments {
+    .type-comments {
+        display: flex;
+        gap: 10px;
+        margin-top: 20px;
+        margin-bottom: 30px;
+        align-items: center;
+
+        img {
+            height: 36px;
+            width: 36px;
+            border-radius: 50%;
+        }
+
+        .input-container {
+            display: flex;
+            background-color: var(--hover-color);
+            padding: 5px 10px;
+            width: 100%;
+            border-radius: 30px;
+
+            input {
+                width: 100%;
+                background-color: var(--hover-color);
+                font-size: 16px;
+                padding: 0 5px;
+                border: none;
+                color: var(--text-primary);
+            }
+        }
+    }
+}
