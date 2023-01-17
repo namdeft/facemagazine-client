@@ -3,13 +3,16 @@
 
 ## 👾 Screenshots
 
+![img8.jpg](https://user-images.githubusercontent.com/94590046/212862480-ab94410a-bacf-44ee-b1bd-900c53da44ae.jpeg)
+
+
 | ![img7.jpg](https://user-images.githubusercontent.com/58461444/156853299-0e7520b5-0800-48ca-a415-368e0cc48da2.png)| 
 |:--:| 
 | *Landing page* |
 
 | ![img8.jpg](https://user-images.githubusercontent.com/58461444/156853441-79ef4bca-c729-4292-8b48-888df1297ba4.png)| 
 |:--:| 
-| *Sign innnnnnnnn* |
+| *Sign in* |
 
 | ![img9.jpg](https://user-images.githubusercontent.com/58461444/156853471-0925aa9f-9f30-4fa5-b6e1-062fd0ef2121.png)| 
 |:--:| 
