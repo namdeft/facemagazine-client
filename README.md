@@ -54,6 +54,6 @@
 |:--:| 
 | *Edit profile user* |
 
-| ![image](https://user-images.githubusercontent.com/94590046/213781196-9b0216f0-0b1e-488b-8a82-f2665d4e9fbf.png)| ![image](https://user-images.githubusercontent.com/94590046/213780107-becb7c92-bb74-4434-8197-eb0a7ca26803.png)|
+![image](https://user-images.githubusercontent.com/94590046/213781196-9b0216f0-0b1e-488b-8a82-f2665d4e9fbf.png) ![image](https://user-images.githubusercontent.com/94590046/213780107-becb7c92-bb74-4434-8197-eb0a7ca26803.png)
 |:--:| 
 | *Mobile display* |
